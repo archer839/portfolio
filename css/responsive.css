@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 1440px) {
+	.wide-col-laptop {
+		-ms-flex: 0 0 120%;
+		flex: 0 0 120%;
+		max-width: 120%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	.skills-ul {
+		top: 0;
+
+}
+
+@media only screen and (max-width: 575px) {
+
+	.skill-item {
+	  border-bottom: 1px solid rgba(250,250,250,0.1);
+	  margin-bottom: 20px;
+	  padding-bottom: 50px;
+	}
+	.skills-row h6 {
+	  text-align: left;
+	  margin-bottom: 30px;
+	}
+	.skill-bar {
+	  width: 100%;
+	  height: 6px;
+	  border-radius: 3px;
+	  background-color: rgba(250,250,250,0.25);
+	  position: relative;
+	}
+}
